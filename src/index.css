@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ios-gray: #F2F2F7;
+  --color-cool-gray: #F9F9FB;
+  --color-deep-black: #1C1C1E;
+
+  --shadow-soft-spread: 0 24px 48px -12px rgba(0, 0, 0, 0.08);
+  --shadow-inner-cut: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  --backdrop-blur-glass-40: 40px;
+  --backdrop-blur-glass-60: 60px;
+
+  --radius-ios-lg: 40px;
+  --radius-ios-md: 28px;
+  --radius-ios-sm: 12px;
+}
+
+@layer base {
+  body {
+    @apply bg-ios-gray text-slate-900 font-sans antialiased;
+  }
+}
